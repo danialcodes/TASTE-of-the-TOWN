@@ -97,3 +97,26 @@ h1{
     background-image: linear-gradient(rgb(31, 160, 31),rgb(71, 167, 92));
     
 }
+
+.counter{
+    box-shadow: -1px 0px 15px 3px #9c9c9c;
+    margin: 60px 70px;
+    padding: 20px;
+    border-radius: 30px;
+    height: 30vh;
+}
+
+footer{
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+    background-color: rgb(11 13 23);;
+    height: 30vh;
+    color: white;
+}
+.counter-item{
+    width: 33.333333%;
+    text-align: center;
+}
+.counter-item h1{
+    margin-bottom: 0px;
+}
