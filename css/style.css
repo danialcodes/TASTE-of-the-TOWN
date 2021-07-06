@@ -2,6 +2,21 @@ body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
+h1{
+    font-size: 45px;
+}
+.flexcon{
+    display: flex;
+}
+.text-green{
+    color: green;
+}
+.half-width{
+    width: 50%;
+    padding: 0% 5%;
+}
+
+    /*------------ Header start -----------*/
 header{
     justify-content: space-between;
     height: 10vh;
@@ -14,22 +29,29 @@ ul{
     justify-content: flex-end;
     
 }
+
 li{
-    background-image: linear-gradient(rgb(115, 172, 115),rgb(12, 247, 137));
+    
+    background-image: linear-gradient(rgb(118 253 118),rgb(58 199 133));
     padding: 7px ;
-    font-weight: 700;
     padding-top: 10px;
     margin: 15px 10px;
     width: 100px;
     height: 25px;
     text-align: center;
-    color:rgb(0, 59, 18);
+    font-weight: 700;
+    
     border-radius: 20px;
+    box-shadow: 1px 0px 14px 2px rgb(114 165 114);
+}
+li a{
+    color: rgb(31 31 29);
+    text-decoration: none;
+}
+    /*------------ Header end -----------*/
 
-}
-h1{
-    font-size: 45px;
-}
+
+   /*------------ Intro Start -----------*/
 .intro h1{
     margin: 0;
     color: #6b6767eb;
@@ -37,18 +59,7 @@ h1{
 .intro{
     margin: 10% 2%;
 }
-.flexcon{
-    display: flex;
-}
-.text-green{
-    color: green;
 
-}
-
-.half-width{
-    width: 50%;
-    padding: 0% 5%;
-}
 .half-width img{
     width: 100%; 
 }
@@ -87,6 +98,8 @@ h1{
     font-weight: 600;
     color: #6b6767eb;
 }
+
+   /*------------ Menu Start -----------*/
 .one_third{
     width: 33.333333%;
     height: 65vh;
@@ -130,7 +143,9 @@ h1{
     background-image: linear-gradient(rgb(31, 160, 31),rgb(71, 167, 92));
     
 }
+   /*------------ Menu End -----------*/
 
+   /*------------ Counter Start -----------*/
 .counter{
     box-shadow: -1px 0px 15px 3px #9c9c9c;
     margin: 60px 70px;
@@ -139,17 +154,22 @@ h1{
     height: 30vh;
 }
 
-footer{
-    padding: 30px 0px 0px 0px;
-    text-align: center;
-    background-color: rgb(11 13 23);;
-    height: 30vh;
-    color: white;
-}
+
 .counter-item{
     width: 33.333333%;
     text-align: center;
 }
 .counter-item h1{
     margin-bottom: 0px;
+}
+    /*------------ Counter End -----------*/
+
+
+   /*------------ Footer Start -----------*/
+footer{
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+    background-color: rgb(11 13 23);;
+    height: 30vh;
+    color: white;
 }
